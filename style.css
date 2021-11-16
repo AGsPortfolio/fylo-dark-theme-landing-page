@@ -1,0 +1,117 @@
+* {
+  font-family: "Raleway", sans-serif;
+  color: white;
+}
+
+body {
+  background-color: #181f2a;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+
+.Navigation {
+  background-color: #1c2431;
+  padding: 2%;
+}
+.Navigation .Links {
+  list-style-type: none;
+}
+.Navigation .Links .Nav-item {
+  text-decoration: none;
+  float: right;
+  padding: 2% 3%;
+}
+
+.Intro {
+  background-color: #1c2431;
+  text-align: center;
+  position: relative;
+}
+.Intro .Intro-logo {
+  padding-top: 5%;
+}
+.Intro .Intro-logo .Curvy-background {
+  width: 100%;
+}
+.Intro .Intro-end {
+  bottom: 5%;
+  position: absolute;
+  right: 10%;
+  left: 10%;
+}
+.Intro .Intro-end .Container {
+  display: grid;
+  grid-template-rows: auto auto;
+  justify-content: center;
+  padding-bottom: 0%;
+}
+.Intro .Intro-end .Container h1 {
+  font-size: 2.8em;
+}
+.Intro .Intro-end .Container p {
+  font-size: 1.5em;
+}
+.Intro .Intro-end .Container .Get-started {
+  padding: 0.5% 6%;
+  font-size: 1em;
+  border-radius: 25px;
+  border: none;
+  background-color: #339ecc;
+}
+.Intro .Intro-end .Container .Get-started:hover {
+  background-color: #65e2d9;
+}
+
+.Overview {
+  display: grid;
+  grid-template-columns: 30% 30%;
+  justify-content: center;
+  text-align: center;
+  gap: 10%;
+  padding-top: 3%;
+}
+.Overview .Overview-item img {
+  padding-bottom: 2%;
+}
+
+.Stay-productive {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: center;
+  column-gap: 4%;
+  padding-top: 10%;
+}
+.Stay-productive .Stay-productive-container {
+  padding-top: 10%;
+  padding-left: 3%;
+}
+.Stay-productive .Stay-productive-container h1 {
+  font-size: 3em;
+}
+.Stay-productive .Stay-productive-container #fylo {
+  color: #65e2d9;
+  border-bottom: 0.5px solid #65e2d9;
+  width: 170px;
+}
+.Stay-productive .Stay-productive-container #arrow {
+  margin-left: 1%;
+}
+.Stay-productive .Stay-productive-container #fylo:hover {
+  color: white;
+  border-bottom: 0.5px solid white;
+}
+
+.Statements {
+  padding-top: 10%;
+}
+.Statements .Statement-container {
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
+  justify-content: center;
+  column-gap: 3%;
+}
+.Statements .Statement-container .Statement-item {
+  background-color: #202a3c;
+}
+
+/*# sourceMappingURL=style.css.map */
