@@ -1,3 +1,271 @@
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .Navigation .Logo {
+    max-width: 25%;
+    padding-top: 1%;
+  }
+
+  .Intro .Illustration {
+    max-width: 60%;
+  }
+  .Intro .Intro-end h1 {
+    font-size: 1em;
+    margin-bottom: 0;
+  }
+  .Intro .Intro-end p {
+    font-size: 0.6em;
+  }
+
+  .Overview {
+    display: flex !important;
+    flex-direction: column !important;
+    padding: 3% 10% !important;
+  }
+  .Overview h2 {
+    font-size: 1.2em;
+  }
+  .Overview p {
+    font-size: 0.9em;
+  }
+  .Overview .Overview-item img {
+    padding-top: 15%;
+    padding-bottom: 8% !important;
+  }
+
+  .Stay-productive {
+    display: flex !important;
+    flex-direction: column !important;
+    padding: 0% 5%;
+  }
+  .Stay-productive .Productive-image {
+    padding-top: 14% !important;
+  }
+  .Stay-productive h1 {
+    font-size: 1.2em;
+  }
+  .Stay-productive p {
+    font-size: 0.9em !important;
+  }
+
+  .Statements .Quotes {
+    margin-top: 13%;
+  }
+  .Statements .Statement-container {
+    display: flex !important;
+    flex-direction: column !important;
+    padding: 15% 10% !important;
+  }
+  .Statements .Statement-container .Statement-item {
+    margin-top: 8%;
+  }
+
+  .Get-access {
+    padding: 5% 5% !important;
+  }
+  .Get-access .Access-container {
+    display: flex !important;
+    flex-direction: column !important;
+    margin: 0% 3% 0% 0% !important;
+  }
+  .Get-access .Access-container h1 {
+    font-size: 1.2em;
+  }
+  .Get-access .Access-container p {
+    font-size: 0.9em !important;
+    line-height: 19px;
+  }
+  .Get-access .Mail-form {
+    display: flex !important;
+    flex-direction: column !important;
+    padding-top: 5% !important;
+  }
+  .Get-access #email-address {
+    width: 75% !important;
+    margin-left: 0 !important;
+    padding: 6% 5% !important;
+    border-radius: 25px !important;
+  }
+  .Get-access button {
+    width: 85% !important;
+    font-size: 1em;
+    padding: 5% 5%;
+  }
+  .Get-access .Useless {
+    padding-top: 100%;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 799px) {
+  .Intro .Intro-end h1 {
+    font-size: 1.9em;
+  }
+  .Intro .Intro-end p {
+    font-size: 1em;
+  }
+
+  .Stay-productive .Productive-image {
+    padding-top: 14%;
+  }
+  .Stay-productive h1 {
+    font-size: 1.9em;
+  }
+  .Stay-productive p {
+    font-size: 0.9em;
+  }
+
+  .Get-access p {
+    line-height: 17px;
+  }
+  .Get-access .Mail-form {
+    grid-template-columns: 45% 35%;
+  }
+  .Get-access button {
+    font-size: 0.6em;
+    padding: 6% 5%;
+  }
+
+  .Useless {
+    padding-top: 33%;
+  }
+}
+.Footer {
+  padding: 12% 0% 5% 8%;
+}
+.Footer .Logo-footer img {
+  width: 10%;
+}
+.Footer .Footer-container {
+  display: grid;
+  grid-template-columns: 25% 20% 10% 10% 15%;
+  column-gap: 3%;
+  font-size: 0.7em;
+}
+.Footer .Footer-container .Contact {
+  padding-left: 10%;
+}
+.Footer .Footer-container .Contact img {
+  max-width: 80%;
+}
+.Footer .Footer-container .About p, .Footer .Footer-container .Contact-us p {
+  line-height: 20px;
+}
+.Footer .Footer-container .Icons {
+  display: grid;
+  grid-template-columns: 30px 30px 30px;
+  font-size: 150%;
+}
+.Footer .Coded-by {
+  margin-left: 3%;
+  margin-top: 2%;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1065px) {
+  .Intro .Intro-end .Container h1 {
+    font-size: 2.2em;
+  }
+  .Intro .Intro-end .Container p {
+    font-size: 1.2em;
+  }
+
+  .Stay-productive .Productive-image {
+    padding-top: 10%;
+  }
+  .Stay-productive h1 {
+    font-size: 2.2em;
+  }
+
+  .Get-access .Access-container p {
+    line-height: 20px;
+  }
+  .Get-access .Access-container .Mail-form {
+    grid-template-columns: 55% 25%;
+  }
+  .Get-access .Access-container button {
+    font-size: 0.7em;
+    padding: 7% 5%;
+  }
+  .Get-access .Useless {
+    padding-top: 26%;
+  }
+
+  .Footer {
+    padding: 12% 0% 5% 8%;
+  }
+  .Footer .Logo-footer img {
+    width: 10%;
+  }
+  .Footer .Footer-container {
+    display: grid;
+    grid-template-columns: 25% 20% 10% 10% 15%;
+    column-gap: 3%;
+    font-size: 0.8em;
+  }
+  .Footer .Footer-container .Contact {
+    padding-left: 15%;
+  }
+  .Footer .Footer-container .About p, .Footer .Footer-container .Contact-us p {
+    line-height: 30px;
+  }
+  .Footer .Footer-container .Icons {
+    display: grid;
+    grid-template-columns: 35px 35px 35px;
+    font-size: 170%;
+  }
+  .Footer .Coded-by {
+    margin-left: 2%;
+  }
+}
+@media screen and (min-width: 1066px) {
+  .Intro .Intro-end .Container h1 {
+    font-size: 2.8em;
+  }
+  .Intro .Intro-end .Container p {
+    font-size: 1.5em;
+  }
+
+  .Stay-productive .Stay-productive-container h1 {
+    font-size: 3em;
+  }
+
+  .Get-access .Access-container p {
+    line-height: 20px;
+  }
+  .Get-access .Access-container .Mail-form {
+    grid-template-columns: 55% 25%;
+  }
+  .Get-access .Access-container button {
+    font-size: 0.8em;
+    padding: 7% 5%;
+  }
+  .Get-access .Useless {
+    padding-top: 16%;
+  }
+
+  .Footer {
+    padding: 12% 0% 5% 8%;
+  }
+  .Footer .Logo-footer img {
+    width: 10%;
+  }
+  .Footer .Footer-container {
+    display: grid;
+    grid-template-columns: 25% 20% 10% 10% 15%;
+    column-gap: 3%;
+    font-size: 0.8em;
+  }
+  .Footer .Footer-container .Contact {
+    padding-left: 15%;
+  }
+  .Footer .Footer-container .About p, .Footer .Footer-container .Contact-us p {
+    line-height: 30px;
+  }
+  .Footer .Footer-container .Icons {
+    display: grid;
+    grid-template-columns: 35px 35px 35px;
+    font-size: 170%;
+  }
+  .Footer .Coded-by {
+    margin-left: 2%;
+  }
+}
 * {
   font-family: "Raleway", sans-serif;
   color: white;
@@ -50,12 +318,6 @@ body {
   justify-content: center;
   padding-bottom: 0%;
 }
-.Intro .Intro-end .Container h1 {
-  font-size: 2.8em;
-}
-.Intro .Intro-end .Container p {
-  font-size: 1.5em;
-}
 .Intro .Intro-end .Container .Get-started {
   padding: 0.5% 6%;
   font-size: 1em;
@@ -94,9 +356,6 @@ body {
   padding-top: 10%;
   padding-left: 3%;
 }
-.Stay-productive .Stay-productive-container h1 {
-  font-size: 3em;
-}
 .Stay-productive .Stay-productive-container #fylo {
   color: #65e2d9;
   border-bottom: 0.5px solid #65e2d9;
@@ -115,8 +374,8 @@ body {
   padding-top: 10%;
 }
 .Statements .Quotes {
-  padding-left: 8%;
   position: absolute;
+  padding-left: 7%;
 }
 .Statements .Statement-container {
   padding-top: 3%;
@@ -154,7 +413,6 @@ body {
   grid-template-columns: auto;
   background-color: #1c2431;
   margin: 5% 20%;
-  padding: 0% 5% 3%;
   justify-content: center;
   text-align: center;
   border-radius: 10px;
@@ -163,58 +421,46 @@ body {
 .Get-access .Access-container p {
   font-size: 0.8em;
   margin: 3% 10% 5%;
-  line-height: 20px;
 }
-.Get-access .Access-container .Email-form {
+.Get-access .Access-container .Mail-form {
   display: grid;
-  grid-template-columns: 55% 25%;
   column-gap: 13%;
   padding: 0;
   margin: 0;
 }
-.Get-access .Access-container .Email-form #email {
+.Get-access .Access-container .Mail-form #email-address {
   border-radius: 20px;
   width: 100%;
   border: none;
   font-size: 0.7em;
-  padding: 3%;
+  padding: 3% 0% 3% 7%;
   margin-left: 12%;
   color: #1c2431;
 }
-.Get-access .Access-container .Email-form #email::placeholder {
-  padding-left: 3%;
+.Get-access .Access-container .Mail-form #email-address::placeholder {
   opacity: 0.7;
 }
-.Get-access .Access-container .Email-form button {
+.Get-access .Access-container .Mail-form #emailMessage {
+  visibility: hidden;
+  margin-left: 0;
+  color: #ff4242;
+}
+.Get-access .Access-container .Mail-form button {
   background-color: #339ecc;
   border-radius: 25px;
   border: none;
-  font-size: 0.8em;
-  padding: 6% 4%;
 }
-.Get-access .Access-container .Email-form button:hover {
+.Get-access .Access-container .Mail-form button:hover {
   background-color: #65e2d9;
   cursor: pointer;
-}
-.Get-access .Useless {
-  padding-top: 16%;
 }
 
 .Footer {
   background-color: #0b1523;
   padding: 12% 0% 5% 8%;
 }
-.Footer .Logo {
+.Footer .Logo-footer {
   padding-bottom: 3%;
-}
-.Footer .Logo img {
-  width: 10%;
-}
-.Footer .Footer-container {
-  display: grid;
-  grid-template-columns: 25% 20% 10% 10% 15%;
-  column-gap: 3%;
-  font-size: 0.8em;
 }
 .Footer .Footer-container .Location {
   display: grid;
@@ -230,23 +476,16 @@ body {
   grid-template-columns: 15% auto;
   row-gap: 30%;
   column-gap: 0%;
-  padding-left: 15%;
 }
 .Footer .Footer-container .Contact p {
   margin: 0;
 }
 .Footer .Footer-container .About p, .Footer .Footer-container .Contact-us p {
   margin: 0;
-  line-height: 30px;
 }
 .Footer .Footer-container #item:hover {
   font-weight: 700;
   cursor: pointer;
-}
-.Footer .Footer-container .Icons {
-  display: grid;
-  grid-template-columns: 35px 35px 35px;
-  font-size: 170%;
 }
 .Footer .Footer-container #icon:hover {
   color: #65e2d9;
@@ -255,7 +494,6 @@ body {
 .Footer .Coded-by {
   font-size: xx-small;
   text-align: left;
-  margin-left: 2%;
   color: #339ecc;
 }
 

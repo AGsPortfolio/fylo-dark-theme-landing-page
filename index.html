@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <script src="email-validation.js"></script>
 
   <title>Fylo landing page with dark theme and features grid</title>
 
@@ -27,7 +28,7 @@
 
   <main>
     <section class="Intro">
-      <img src="/images/illustration-intro.png" alt="Intro">
+      <img  class="Illustration" src="/images/illustration-intro.png" alt="Intro">
       <div  class="Intro-logo">
         <img class="Curvy-background" src="/images/bg-curvy-desktop.svg" alt="Pattern">
       </div>
@@ -41,11 +42,11 @@
               <p>Fylo stores all your most important files in one secure location. <br>Access them wherever 
                 you need, share and collaborate with <br>friends family, and co-workers.<br><br>
                 <button class="Get-started">Get Started</button></p>
-              </div>
             </div>
           </div>
-        </article>
-      </section>
+        </div>
+      </article>
+    </section>
 
     <section class="Overview">
         <div class="Overview-item">
@@ -81,34 +82,36 @@
       <div class="Stay-productive-container">
         <h1>Stay productive, wherever you are</h1>
         <p>Never let location be an issue when accessing your files. Fylo has you covered for all of your file 
-        storage needs.</p>
-        <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email 
-        attachments required.</p>
-        <p id="fylo">See how Fylo works
-        <img id="arrow" src="/images/icon-arrow.svg" alt="Arrow">
-        </p>
-      </div>
-    </section>
-
+          storage needs.</p>
+          <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email 
+            attachments required.</p>
+            <p id="fylo">See how Fylo works
+              <img id="arrow" src="/images/icon-arrow.svg" alt="Arrow">
+            </p>
+          </div>
+        </section>
+        
     <section class="Statements">
-      <img class="Quotes" src="/images/bg-quotes.png" alt="Quotes">
+      <div class="Quotes">
+          <img class="Quotes-image" src="/images/bg-quotes.png" alt="Quotes">
+      </div>
       <div class="Statement-container">
         <div class="Statement-item">
           <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
-          become a well-oiled collaboration machine.</p>
+            become a well-oiled collaboration machine.</p>
           <div class="Names">
             <div>
               <img src="/images/profile-1.jpg" alt="Satish Patel">
             </div>
             <div>
               <p id="name"><h3>Satish Patel</h3> 
-              Founder & CEO, Huddle</p>
+                Founder & CEO, Huddle</p>
             </div>
           </div>
         </div>
         <div class="Statement-item">
-            <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
-          become a well-oiled collaboration machine.</p>
+          <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
+            become a well-oiled collaboration machine.</p>
           <div class="Names">
             <div>
               <img src="/images/profile-2.jpg" alt="Bruce McKenzie">
@@ -121,31 +124,37 @@
         </div>
         <div class="Statement-item">
           <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
-          become a well-oiled collaboration machine.</p>
+            become a well-oiled collaboration machine.</p>
           <div class="Names">
             <div>
               <img src="/images/profile-3.jpg" alt="Iva Boyd">
             </div>
             <div>
               <p id="name"><h3>Iva Boyd</h3>
-              Founder & CEO, Huddle</p>
-            </div>
+                Founder & CEO, Huddle</p>
+            </div>   
           </div>
         </div>
       </div>
     </section>
-    
+                
     <section class="Get-access">
       <div class="Access-container">
         <h1>Get early access today</h1>
         <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
           questions, our support team would be happy to help you.</p>
-        <div class="Email-form">
-          <form action="">
-            <input type="email" name="email" id="email" placeholder="email@example.com">
-          </form>
-          <button>Get Started For Free</button>
-        </div> 
+        <form class="Mail-form" name="mailForm" action="">
+          <div>
+            <input type="text" name="emailAddress" id="email-address" placeholder="email@example.com">
+            <p id="emailMessage">Please enter a valid email address</p>
+          </div>
+          <div>
+            <button type="button" id="button"
+              onclick="emailValidation(document.mailForm.emailAddress)">
+              Get Started For Free
+            </button>
+          </div>
+        </form>
       </div>
       <div class="Useless"></div>
     </section>
@@ -153,7 +162,7 @@
   </main>
 
   <footer class="Footer">   
-    <div class="Logo">
+    <div class="Logo-footer">
       <img src="/images/logo.svg" alt="Fylo">
     </div>
     <div class="Footer-container">

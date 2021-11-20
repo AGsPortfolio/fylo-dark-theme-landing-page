@@ -1,0 +1,80 @@
+@media screen 
+and (min-width: 1066px) {
+
+    .Intro {
+        .Intro-end {
+            .Container {
+                h1 {
+                    font-size: 2.8em;
+                }
+
+                p { font-size: 1.5em;}
+            }
+        }
+    }
+
+    .Stay-productive {
+        .Stay-productive-container {
+            h1 {
+                font-size: 3em;
+            }
+        }
+    }
+
+    .Get-access {
+        .Access-container {
+            p {
+                line-height: 20px;
+            }
+            .Mail-form {
+                grid-template-columns: 55% 25%;
+            }
+            button {
+                font-size: 0.8em;
+                padding: 7% 5%;
+            }
+        }
+        
+        .Useless {
+            padding-top: 16%;
+        }
+    }
+
+    .Footer {
+        padding: 12% 0% 5% 8%;
+
+        .Logo-footer {
+            img {
+                width: 10%;
+            }
+        }
+    
+        .Footer-container {
+            display: grid;
+            grid-template-columns: 25% 20% 10% 10% 15%;
+            column-gap: 3%;
+            font-size: 0.8em;
+    
+            .Contact {
+                padding-left: 15%;
+            }
+    
+            .About, .Contact-us {
+    
+                p {
+                    line-height: 30px;
+                }
+            }
+
+            .Icons {
+                display: grid;
+                grid-template-columns: 35px 35px 35px;
+                font-size: 170%;
+            }
+        }
+    
+        .Coded-by {
+            margin-left: 2%;
+        }
+    }
+}
