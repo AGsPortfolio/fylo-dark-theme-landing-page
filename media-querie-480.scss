@@ -1,5 +1,5 @@
 @media screen
-and (min-width: 480px)
+and (min-width: 655px)
 and (max-width: 799px) {
  
     .Intro {
@@ -39,42 +39,46 @@ and (max-width: 799px) {
     .Useless {
         padding-top: 33%;
     }
-}
-
-
-.Footer {
-    padding: 12% 0% 5% 8%;
-
-    .Logo-footer {
-        img {
-            width: 10%;
-        }
-    }
-
-    .Footer-container {
-        display: grid;
-        grid-template-columns: 25% 20% 10% 10% 15%;
-        column-gap: 3%;
-        font-size: 0.7em;
-        .Contact {
-            padding-left: 10%;
+    
+    .Footer {
+        padding: 12% 0% 5% 8%;
+    
+        .Logo-footer {
             img {
-                max-width: 80%;
+                width: 10%;
             }
         }
-        .About, .Contact-us {
-            p{
-            line-height: 20px;
-            }
-        }
-        .Icons {
+    
+        .Footer-container {
             display: grid;
-            grid-template-columns: 30px 30px 30px;
-            font-size: 150%;
+            grid-template-columns: 25% 20% 10% 10% 15%;
+            column-gap: 3%;
+            font-size: 0.7em;
+            .Contact {
+                padding-left: 10%;
+                img {
+                    max-width: 80%;
+                }
+            }
+            .About, .Contact-us {
+                p{
+                line-height: 20px;
+                }
+            }
+            .Icons {
+                display: grid;
+                grid-template-columns: 30px 30px 30px;
+                font-size: 150%;
+            }
         }
+        .Coded-by {
+            margin-left: 3%;
+            margin-top: 2%;
+        }
+    
     }
-    .Coded-by {
-        margin-left: 3%;
-        margin-top: 2%;
+    .Footer-mobile {
+        display: none;
     }
 }
+

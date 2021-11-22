@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px) and (max-width: 479px) {
+@media screen and (min-width: 320px) and (max-width: 654px) {
   .Navigation .Logo {
     max-width: 25%;
     padding-top: 1%;
@@ -92,8 +92,72 @@
   .Get-access .Useless {
     padding-top: 100%;
   }
+
+  .Footer {
+    display: none;
+  }
+
+  .Footer-mobile {
+    background-color: #0b1523;
+    padding: 12% 0% 5% 8%;
+    font-size: 0.7em;
+  }
+  .Footer-mobile .Logo-mobile-footer {
+    padding-bottom: 3%;
+    padding-left: 2%;
+  }
+  .Footer-mobile .Logo-mobile-footer img {
+    width: 50%;
+  }
+  .Footer-mobile .Footer-mobile-container {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5em;
+    padding-right: 5%;
+  }
+  .Footer-mobile .Footer-mobile-container .Footer-mobile-item {
+    margin-top: 10%;
+  }
+  .Footer-mobile .Footer-mobile-container .Footer-mobile-item .Contact-mobile {
+    display: grid;
+    grid-template-columns: 15% auto;
+    row-gap: 30%;
+    column-gap: 0%;
+    padding-left: 0%;
+    padding-bottom: 10%;
+  }
+  .Footer-mobile .Footer-mobile-container .Footer-mobile-item .Contact-mobile p {
+    margin: 0;
+  }
+  .Footer-mobile .Footer-mobile-container .Footer-mobile-item .Contact-mobile img {
+    max-width: 80%;
+  }
+  .Footer-mobile .Footer-mobile-container .Footer-mobile-item .About-mobile p, .Footer-mobile .Footer-mobile-container .Footer-mobile-item .Contact-us-mobile p {
+    margin: 0;
+    line-height: 30px;
+  }
+  .Footer-mobile .Footer-mobile-container .Footer-mobile-item .Icons-mobile {
+    justify-content: center;
+    font-size: 150%;
+    column-gap: 5%;
+  }
+  .Footer-mobile .Footer-mobile-container .Footer-mobile-item #item-mobile:hover {
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .Footer-mobile .Footer-mobile-container .Footer-mobile-item #icon-mobile:hover {
+    color: #65e2d9;
+    cursor: pointer;
+  }
+  .Footer-mobile .Coded-by {
+    font-size: xx-small;
+    color: #339ecc;
+    margin-left: -8% !important;
+    margin-top: 4%;
+    text-align: center !important;
+  }
 }
-@media screen and (min-width: 480px) and (max-width: 799px) {
+@media screen and (min-width: 655px) and (max-width: 799px) {
   .Intro .Intro-end h1 {
     font-size: 1.9em;
   }
@@ -125,38 +189,42 @@
   .Useless {
     padding-top: 33%;
   }
-}
-.Footer {
-  padding: 12% 0% 5% 8%;
-}
-.Footer .Logo-footer img {
-  width: 10%;
-}
-.Footer .Footer-container {
-  display: grid;
-  grid-template-columns: 25% 20% 10% 10% 15%;
-  column-gap: 3%;
-  font-size: 0.7em;
-}
-.Footer .Footer-container .Contact {
-  padding-left: 10%;
-}
-.Footer .Footer-container .Contact img {
-  max-width: 80%;
-}
-.Footer .Footer-container .About p, .Footer .Footer-container .Contact-us p {
-  line-height: 20px;
-}
-.Footer .Footer-container .Icons {
-  display: grid;
-  grid-template-columns: 30px 30px 30px;
-  font-size: 150%;
-}
-.Footer .Coded-by {
-  margin-left: 3%;
-  margin-top: 2%;
-}
 
+  .Footer {
+    padding: 12% 0% 5% 8%;
+  }
+  .Footer .Logo-footer img {
+    width: 10%;
+  }
+  .Footer .Footer-container {
+    display: grid;
+    grid-template-columns: 25% 20% 10% 10% 15%;
+    column-gap: 3%;
+    font-size: 0.7em;
+  }
+  .Footer .Footer-container .Contact {
+    padding-left: 10%;
+  }
+  .Footer .Footer-container .Contact img {
+    max-width: 80%;
+  }
+  .Footer .Footer-container .About p, .Footer .Footer-container .Contact-us p {
+    line-height: 20px;
+  }
+  .Footer .Footer-container .Icons {
+    display: grid;
+    grid-template-columns: 30px 30px 30px;
+    font-size: 150%;
+  }
+  .Footer .Coded-by {
+    margin-left: 3%;
+    margin-top: 2%;
+  }
+
+  .Footer-mobile {
+    display: none;
+  }
+}
 @media screen and (min-width: 800px) and (max-width: 1065px) {
   .Intro .Intro-end .Container h1 {
     font-size: 2.2em;
@@ -212,6 +280,10 @@
   .Footer .Coded-by {
     margin-left: 2%;
   }
+
+  .Footer-mobile {
+    display: none;
+  }
 }
 @media screen and (min-width: 1066px) {
   .Intro .Intro-end .Container h1 {
@@ -264,6 +336,10 @@
   }
   .Footer .Coded-by {
     margin-left: 2%;
+  }
+
+  .Footer-mobile {
+    display: none;
   }
 }
 * {
@@ -490,6 +566,9 @@ body {
 .Footer .Footer-container #icon:hover {
   color: #65e2d9;
   cursor: pointer;
+}
+.Footer .Footer-mobile {
+  display: none;
 }
 .Footer .Coded-by {
   font-size: xx-small;

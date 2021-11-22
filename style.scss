@@ -249,10 +249,6 @@ body {
 
     .Logo-footer {
         padding-bottom: 3%;
-
-        // img {
-        //     width: 10%;
-        // }
     }
 
     .Footer-container {
@@ -295,6 +291,10 @@ body {
             color: $accent-cyan;
             cursor: pointer;
         }
+    }
+
+    .Footer-mobile {
+        display: none;
     }
 
     .Coded-by {

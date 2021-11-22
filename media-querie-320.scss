@@ -1,7 +1,18 @@
+// Colors
+$primary-dark-blue-intro-and-email: hsl(217, 28%, 15%); 
+$primary-dark-blue-main-background: hsl(218, 28%, 13%);
+$primary-dark-blue-testimonials: hsl(219, 30%, 18%);
+$primary-dark-blue-footer-background: hsl(216, 53%, 9%);
+$accent-cyan: hsl(176, 68%, 64%);
+$accent-blue: hsl(198, 60%, 50%);
+$accent-light-red: hsl(0, 100%, 63%);
+$neutral-white: hsl(0, 0%, 100%);
+
 @media screen
 and (min-width: 320px)
-and (max-width: 479px) {
+and (max-width: 654px) {
  
+
     .Navigation {
         .Logo {
             max-width: 25%;
@@ -110,47 +121,80 @@ and (max-width: 479px) {
             padding-top: 100%;
         }
     }
+    
+    .Footer {
+        display: none;
+    }
+    
+    .Footer-mobile {
+        background-color: $primary-dark-blue-footer-background;
+        padding: 12% 0% 5% 8%;
+        font-size: 0.7em ;
+    
+        .Logo-mobile-footer {
+            padding-bottom: 3%;
+            padding-left: 2%;
+    
+            img {
+                width: 50%;
+            }
+        }
+        .Footer-mobile-container {
+            display: flex;
+            flex-direction: column;
+            font-size: 1.5em;
+            padding-right: 5%;
+    
+            .Footer-mobile-item {
+                margin-top: 10%;
+    
+                .Contact-mobile {
+                    display: grid;
+                    grid-template-columns: 15% auto;
+                    row-gap: 30%;
+                    column-gap: 0%;
+        
+                    padding-left: 0%;
+                    padding-bottom: 10%;
+    
+                    p {
+                        margin: 0;
+                    }
+    
+                    img {
+                        max-width: 80%;
+                    }
+                }
+                .About-mobile, .Contact-us-mobile {
+                    p {
+                        margin: 0;
+    
+                        line-height: 30px;
+                    }
+                }
+                .Icons-mobile {
+                    justify-content: center;
+                    font-size: 150%;
+                    column-gap: 5%;
+                }
+    
+                #item-mobile:hover {
+                    font-weight: 700;
+                    cursor: pointer;
+                }
+        
+                #icon-mobile:hover {
+                    color: $accent-cyan;
+                    cursor: pointer;
+                }
+            }
+        }
+        .Coded-by {
+            font-size: xx-small;
+            color: $accent-blue;
+            margin-left: -8% !important;
+            margin-top: 4%;
+            text-align: center !important;
+        }
+    }
 }
-
-// .Footer {
-//     font-size: 0.7em ;
-
-//     .Logo-footer {
-//         padding-left: 2%;
-
-//         img {
-//             width: 50%;
-//         }
-//     }
-//     .Footer-container {
-//         display: flex;
-//         flex-direction: column;
-//         font-size: 1.5em !important;
-//         padding-right: 5%;
-//         .Footer-item {
-//             margin-top: 10%;
-//             .Contact {
-//                 padding-left: 0% !important;
-//                 padding-bottom: 10%;
-//                 img {
-//                     max-width: 80%;
-//                 }
-//             }
-//             .About, .Contact-us {
-//                 p{
-//                 line-height: 30px !important;
-//                 }
-//             }
-//             .Icons {
-//                 justify-content: center;
-//                 font-size: 150% !important;
-//                 column-gap: 5%;
-//             }
-//         }
-//     }
-//     .Coded-by {
-//         margin-left: -8% !important;
-//         margin-top: 4%;
-//         text-align: center !important;
-//     }
-// }
