@@ -26,12 +26,18 @@ and (max-width: 654px) {
         }
 
         .Intro-end {
+            max-width: 70% !important;
+            right: 15% !important;
+            left: 15% !important;
             h1 {
-                font-size: 1em;
+                font-size: 1.2em;
                 margin-bottom: 0;
             }
             p { 
-                font-size: 0.6em;
+                font-size: 0.8em;
+            }
+            .Get-started {
+                padding: 1% 4% !important;
             }
         }
     }
@@ -173,17 +179,21 @@ and (max-width: 654px) {
                     }
                 }
                 .Icons-mobile {
-                    justify-content: center;
                     font-size: 150%;
                     column-gap: 5%;
+                    list-style-type: none;
+                    display: grid;
+                    grid-template-columns: 20px 20px 20px;
+                    justify-content: center;
+                    padding: 0 ;
                 }
     
-                #item-mobile:hover {
+                .item-mobile:hover {
                     font-weight: 700;
                     cursor: pointer;
                 }
         
-                #icon-mobile:hover {
+                .icon-mobile:hover {
                     color: $accent-cyan;
                     cursor: pointer;
                 }
@@ -192,7 +202,7 @@ and (max-width: 654px) {
         .Coded-by {
             font-size: xx-small;
             color: $accent-blue;
-            margin-left: -8% !important;
+            margin-left: -6% !important;
             margin-top: 4%;
             text-align: center !important;
         }
