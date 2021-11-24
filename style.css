@@ -527,9 +527,13 @@ body {
 .Get-access .Access-container .Mail-form #email-address::placeholder {
   opacity: 0.7;
 }
+.Get-access .Access-container .Mail-form #thanks {
+  visibility: hidden;
+  margin: 1% 0% 0%;
+}
 .Get-access .Access-container .Mail-form #emailMessage {
   visibility: hidden;
-  margin-left: 0;
+  margin: 0% 0% 2%;
   color: #ff4242;
 }
 .Get-access .Access-container .Mail-form button {
